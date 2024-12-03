@@ -34,4 +34,14 @@ func main() {
 		fmt.Println("x is now", x)
 	}
 
+	for x := 0; x < 5; x++ {
+		if x == 3 {
+			fmt.Println("HUHUU!!!!")
+			continue
+		}
+		fmt.Println("x is now", x)
+	}
+
+	fmt.Println("----------")
+
 }
